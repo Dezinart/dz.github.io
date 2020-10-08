@@ -1052,6 +1052,10 @@ section.lazy-placeholder:after {
 .cid-s2l3HlBS6a .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-s2l3HlBS6a .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-s2l3HlBS6a .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-s2l3HlBS6a .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-s2l3HlBS6a .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1153,6 +1157,10 @@ section.lazy-placeholder:after {
   .cid-s2l3HlBS6a .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-s2l3HlBS6a .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-s2l3HlBS6a .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-s2l3HlBS6a .navbar-collapse.collapsing .navbar-buttons,
   .cid-s2l3HlBS6a .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1217,8 +1225,8 @@ section.lazy-placeholder:after {
   color: #767676 !important;
 }
 .cid-scJSDeiFvu {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   background: linear-gradient(0deg, #4f4943, #232323);
 }
 .cid-scJSDeiFvu .mbr-iconfont-social {
@@ -1231,4 +1239,9 @@ section.lazy-placeholder:after {
 .cid-scJSDeiFvu H2 {
   color: #ffffff;
   text-align: left;
+}
+.cid-scNTMKqad3 {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #4f4943;
 }
